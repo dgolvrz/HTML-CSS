@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(105, 73, 136);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #701919;
+
+}
+
+a:visited{
+    color: #b1adad;
+}

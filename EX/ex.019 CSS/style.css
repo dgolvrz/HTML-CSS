@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cutive+Mono&display=swap');
+
+
+body{
+    background-color: #faebd7;
+}
+
+#principal{
+    text-align: center;
+    color: #bb0a21;
+    background-color: #333333;
+}
+
+h1{
+    font-family: "Playfair Display SC";
+    text-align: center;
+}
+
+h2{
+    font-family: "Quicksand";
+    font-size: 1.5em;
+}
+
+.basico{
+    color: #31e981;
+}
+
+.intermediario{
+    color: #fa7921;
+}
+
+.avancado{
+    color: #bf0603;
+}
+
+p{
+   font-family: "Cutive Mono";
+   text-align: justify;
+
+}

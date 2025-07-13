@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(49, 83, 83);
+    font-size: 20px;
+}
+
+h1{
+    color: antiquewhite;
+    background-color: black;
+}
+
+p{
+    color: blanchedalmond;
+    background-color: rgb(75, 35, 35);
+    text-align: justify;
+}
