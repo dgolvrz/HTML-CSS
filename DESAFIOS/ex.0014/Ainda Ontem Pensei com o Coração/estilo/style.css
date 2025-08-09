@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root{
+    --fonte1: "Playfair Display", serif;
+    --fonte2: "Amatic SC", sans-serif;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +22,7 @@
 html , body{
     min-height: 100vh;
     background-color: #e6e1dc;
+    font-family: var(--fonte3);
 }
 
 header{
@@ -20,6 +34,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 6.8vw;
 }
 
 header > p{
@@ -41,6 +57,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 
@@ -55,7 +74,8 @@ section.img{
 }
 
 section.img > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.418);
 }
 
