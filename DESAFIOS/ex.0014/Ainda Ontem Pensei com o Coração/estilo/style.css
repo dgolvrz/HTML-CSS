@@ -36,6 +36,7 @@ header > h1{
     font-variant: small-caps;
     font-family: var(--fonte1);
     font-size: 6.8vw;
+    text-decoration: underline;
 }
 
 header > p{
@@ -51,6 +52,14 @@ header a , footer a{
 header a:hover , footer a:hover{
     text-decoration: underline;
 }
+
+div#flex {
+    display: flex;
+    justify-content: center;
+    background-color: #e7e6e6;
+    padding: 15px 0px 15px 0px;
+}
+
 
 section{
     padding-top: 10vh;
@@ -71,6 +80,9 @@ section.normal{
 section.img{
     background-color: rgb(51, 50, 50);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.253);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.img > p{
@@ -79,6 +91,15 @@ section.img > p{
     background-color: rgba(0, 0, 0, 0.418);
 }
 
+section#img01{
+    background-image: url(../img/clay\ eyes.jpeg);
+    background-position: center center;
+}
+
+section#img02{
+    background-image: url(../img/hannah\ eyes.jpg);
+    background-position: center center;
+}
 
 
 
