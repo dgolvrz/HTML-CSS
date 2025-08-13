@@ -53,14 +53,6 @@ header a:hover , footer a:hover{
     text-decoration: underline;
 }
 
-div#flex {
-    display: flex;
-    justify-content: center;
-    background-color: #e7e6e6;
-    padding: 15px 0px 15px 0px;
-}
-
-
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
