@@ -28,6 +28,7 @@
                 width: 500px;
                 border-collapse: collapse;
                 margin: auto;
+                position: relative;
             }
 
             td, th{
@@ -38,6 +39,13 @@
             thead, tfoot{
                 background-color: gray;
                 color: white;
+            }
+
+            /*position: sticky > serve para grudar o cabesalho na tabela,se eu ir abaixando o cabesalho vai justo. Ótimo para presisão de leitura. Só funciona se a tabela tiver uma position: relative;*/
+            thead > tr > th {
+                position: sticky;
+                top: -1;
+                background-color: gray;
             }
 
             tbody > tr:nth-child(2n){
@@ -127,16 +135,41 @@
                     <td class="num">3.974.687</td>
                 </tr>
 
+                <tr>
+                    <td>Piauí</td>
+                    <td class="num">3.271.199</td>
+                </tr>
+
+                <tr>
+                    <td>Rondônia</td>
+                    <td class="num">1.581.196</td>
+                </tr>
+
+                <tr>
+                    <td>Roraima</td>
+                    <td class="num">636.707</td>
+                </tr>
+
+                <tr>
+                    <td>Sergipe</td>
+                    <td class="num">2.210.004</td>
+                </tr>
+
+                <tr>
+                    <td>Tocantis</td>
+                    <td class="num">1.511.460</td>
+                </tr>
+
             </tbody>
 
             <tfoot>
                 <tr>
                     <th scope="row">Total de Habitantes</th>
-                    <td class="num"><strong>157.964.668</strong></td>
+                    <td class="num"><strong>167.175.234</strong></td>
                 </tr>
             </tfoot>
         </table>
 
-        
+
     </body>
 </html>
