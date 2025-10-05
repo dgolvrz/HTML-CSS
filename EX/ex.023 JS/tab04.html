@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="blood.ico" type="image/x-icon">
+        <title>Tabelas na Prática</title>
+
+        <style>
+            body{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            table{
+                border-collapse: collapse;
+                margin: auto;
+            }
+
+            caption{
+                font-size: 1.6em;
+                font-weight: bold;
+                text-decoration: underline;
+                padding: 10px;
+            }
+
+            h2{
+                text-decoration: underline;
+            }
+
+            th, td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            th.color{
+                background-color: rgba(128, 128, 128, 0.568);
+            }
+
+            th.corF{
+                background-color: rgba(221, 160, 221, 0.664);
+            }
+
+            th.corM{
+                background-color: rgba(173, 216, 230, 0.692);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h2>Tabelas na Prática</h2>
+
+       
+
+        <table>
+
+            <caption>
+                Pesquisa de Filmes
+            </caption>
+
+
+            <tr>
+                <th class="color">Grupo</th>
+                <th class="color">Nomes</th>
+                <th colspan="3" class="color">Filmes</th>
+            </tr>
+
+            <tr>
+                <th rowspan="3" class="corF">Mulheres</th>
+                <td>Clara Mendes</td>
+                <td>O Fabuloso Destino de Amélie Poulain</td>
+                <td>Antes do Amanhecer</td>
+                <td>Clube da Luta</td>
+            </tr>
+
+            <tr>
+                <td>Lívia Duarte</td>
+                 <td>O Segredo dos Seus Olhos</td>
+                <td>Garota Exemplar</td>
+                <td>Peixe Grande</td>
+            </tr>
+
+            <tr>
+                <td>Sofia Nogueira</td>
+                <td>Pequena Miss Sunshine</td>
+                <td>Beleza Ámericana</td>
+                <td>A Origem</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" class="corM">Homens</th>
+                <td>Rafael Torres</td>
+                <td>O Grande Truque</td>
+                <td>Coração Valente</td>
+                <td>Cidade de Deus</td>
+            </tr>
+
+            <tr>
+                <td>Caio Albuquerque</td>
+                <td>O Lobo de Wall Street</td>
+                <td>O Jogo da Imitação</td>
+                <td>O Último Samurai</td>
+            </tr>
+
+            <tr>
+                <td>Daniel Prado</td>
+                <td>Em Busca da Felicidade</td>
+                <td>À Procura de Nemo</td>
+                <td>A Teoria de Tudo</td>
+            </tr>
+
+        </table>
+
+        <div class="p"></div>
+
+
+
+
+
+
+
+    </body>
+</html>
