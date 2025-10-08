@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="blood.ico" type="image/x-icon">
+        <title>Exercícios de Tabelas</title>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            table {
+                width: 500px;
+                border-collapse: collapse;
+                margin: auto;
+            }
+
+            h1 {
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            caption {
+                font-size: 1.3em;
+                font-weight: bolder;
+                padding: 8px;
+                margin: auto;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+            }
+
+            th {
+                background-color: rgba(128, 128, 128, 0.596);
+            }
+
+            col.cnome {
+                background-color: rgba(14, 13, 100, 0.548);
+            }
+
+            col.csexo {
+                background-color: rgba(14, 13, 100, 0.473);
+            }
+
+            col.cidade {
+                background-color: rgba(14, 13, 100, 0.384);
+            }
+
+            col.cprof {
+                background-color: rgba(17, 16, 102, 0.322);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Exercício de Tabela</h1>
+
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+
+            <tr>
+                <td>Luiza Vergus</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Arquiteta</td>
+            </tr>
+
+            <tr>
+                <td>Kayro Fonseca</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Análista de Dados</td>
+            </tr>
+
+            <tr>
+                <td>Victorya Laizza</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Jornalista</td>
+            </tr>
+
+            <tr>
+                <td>Luka Bandeira</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Professor</td>
+            </tr>
+
+            <tr>
+                <td>Carmy Macciotto</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Cozinheiro</td>
+            </tr>
+
+            <tr>
+                <td>Bianca Fargutty</td>
+                <td>F</td>
+                <td>32</td>
+                <td>Engenheira Química</td>
+            </tr>
+        </table>
+
+
+
+
+
+        
+    </body>
+</html>
