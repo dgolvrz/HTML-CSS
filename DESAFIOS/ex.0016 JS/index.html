@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="dg.ico" type="image/x-icon">
+        <title>Tabela Funcional</title>
+
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1{
+                font-size: 1.4em;
+                font-weight: bold;
+                text-decoration: underline;
+                text-align: center;
+            }
+
+            table{
+                width: 450px;
+                padding: 20px;
+                border-collapse: collapse;
+                margin: auto;
+            }
+
+            th{
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            th.cor, td.cor{
+                border: 1px solid black;
+                padding: 10px;
+                background-color: rgba(128, 128, 128, 0.76);
+                color: rgba(255, 255, 255, 0.849);
+            }
+
+            th.note{
+                padding: 10px;
+                background-color: rgba(128, 128, 128, 0.76);
+                color: rgba(255, 255, 255, 0.849);
+                padding: 10px;
+                vertical-align: middle;
+                text-align: center;
+
+            }
+
+            th.indent{
+                background-color: rgba(128, 128, 128, 0.76);
+                color: rgba(255, 255, 255, 0.849);
+                text-align: start;
+            }
+
+            td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Tabela Escolar</h1>
+
+        <table>
+            <thead>
+
+                <tr>
+                    <th class="cor" rowspan="2">Área</th>
+                    <th class="cor" rowspan="2">Disciplinas</th>
+                    <th class="cor" colspan="2" scope="colgroup">Notas</th>
+                    <th class="cor" rowspan="2">Média</th>
+                </tr>
+
+                <tr>
+                    <th class="note">Nota 1</th>
+                    <th class="note">Nota 2</th>
+                </tr>
+
+            </thead>
+
+
+
+            <tbody>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Física</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Química</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th class="indent" colspan="4" scope="col">Média de Exatas</th>
+                    <td class="cor">0.0</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2" scope="col">Humanas</th>
+                    <td>História</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
+
+
+
+            <tfoot>
+                <tr>
+                    <th class="indent" colspan="4" scope="col">Média de Humanas</th>
+                    <td class="cor">0.0</td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+
+    </body>
+</html>
