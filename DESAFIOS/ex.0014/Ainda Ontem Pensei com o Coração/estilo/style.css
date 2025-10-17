@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cutive+Mono&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root{
+    --fonte1: "Playfair Display", serif;
+    --fonte2: "Amatic SC", sans-serif;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html , body{
+    min-height: 100vh;
+    background-color: #e6e1dc;
+    font-family: var(--fonte3);
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 6.8vw;
+    text-decoration: underline;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a , footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover , footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.img{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.253);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+section#img01{
+    background-image: url(../img/clay\ eyes.jpeg);
+    background-position: center center;
+}
+
+section#img02{
+    background-image: url(../img/hannah\ eyes.jpg);
+    background-position: center center;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
