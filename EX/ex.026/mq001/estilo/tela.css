@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*Estilo para celulares*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(139, 139, 139);
+}
+
+header > h1{
+    text-align: center;
+}
+
+ul {
+    padding: 4px;
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+    color: white;
+    padding: 12px;
+}
+
+article {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+
+h2 {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+p {
+    transition: 1s;
+}
