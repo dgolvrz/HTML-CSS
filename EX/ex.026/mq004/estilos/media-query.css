@@ -4,11 +4,11 @@
 -------------------------------
 /* Typical Device Breakpoints!
 -------------------------------
-Pequena Telas: 320px (visualizações de telefone menores) 
-Celulares: 480px (pequenos dispositivos e a maioria dos telefones) 
-Tablets: 768px (a maioria dos tablets) 
-Desktops: 992px (visualizações de desktop menores) 
-Grandes Telas: 1200px (dispositivos grandes e telas largas) 
+Pequena Telas: 320px até 600px (visualizações de telefone menores) 
+Celulares: 600px até 768px (pequenos dispositivos e a maioria dos telefones) 
+Tablets: 768px até 992px (a maioria dos tablets) 
+Desktops: 992px até 1200px (visualizações de desktop menores) 
+Grandes Telas: Acima de 1200px (dispositivos grandes e telas largas) 
 */
 
 @media print { /*Impressão*/
