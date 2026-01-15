@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+

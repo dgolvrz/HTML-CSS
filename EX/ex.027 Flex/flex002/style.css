@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+div.itemA {
+    background-color: rgba(219, 8, 8, 0.796);
+    border: 1px solid black;
+    text-align: center;
+    pad: 15px;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+div#container2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#container3 {
+    background-color: black;
+    display: flex;
+    flex-direction:  column;
+}
+
+div#container4 {
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
