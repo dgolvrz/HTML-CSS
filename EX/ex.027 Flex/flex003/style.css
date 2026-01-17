@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+div.itemA {
+    background-color: rgba(219, 8, 8, 0.796);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div#container2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#container3 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+div#container4 {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item4 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    flex: auto;
+}
+
