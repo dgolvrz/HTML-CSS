@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+
+    /* Mude o Aligh-Content */
+    align-content: space-evenly;
+}
+
