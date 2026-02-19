@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+div#i1 /*A*/{
+  align-self: stretch;
+}
+
+div#i2 /*B*/{
+    align-self: auto;
+}
+
+div#i3 /*C*/{
+   align-self: flex-start;
+}
+
+div#i4 /*D*/{
+   align-self: end;
+}
+
+div#i5 /*E*/{
+   align-self: center;
+}
+
+div#i6 /*F*/{
+   align-self: flex-end;
+}
+
+div#i7 /*G*/{
+   align-self: auto;
+}
+
+div#i8 /*H*/{
+    align-self: flex-start;
+}
+
+div#i9 /*I*/{
+    align-self: stretch;
+}
+

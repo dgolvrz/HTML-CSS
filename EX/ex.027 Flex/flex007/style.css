@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+
+    /* Mude o Aligh-Content */  
+    align-content: start;
+}
+
+div#i1 /*A*/{
+    order: 1;
+}
+
+div#i2 /*B*/{
+    order: 10;
+}
+
+div#i3 /*C*/{
+    order: -4;
+}
+
+div#i4 /*D*/{
+    order: 8;
+}
+
+div#i5 /*E*/{
+    order: 5;
+}
+
+div#i6 /*F*/{
+    order: -2;
+}
+
+div#i7 /*G*/{
+    order: 0;
+}
+
