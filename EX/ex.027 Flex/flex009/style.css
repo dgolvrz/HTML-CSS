@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+
+    /* "flex basis" - permite vc colocar um valor definido para os itens. Porem se não couber, os itens vão quebrar! */
+    flex-basis: 200px;
+}
+
+div#container {
+    background-color: black;
+    flex-flow: row nowrap;
+    display: flex;
+}
+
