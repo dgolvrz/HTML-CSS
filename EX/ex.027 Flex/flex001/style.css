@@ -6,12 +6,13 @@ div.item {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
+    flex: auto;
 }
 
 
 div#container {
     background-color: black;
     display: flex;
-    flex-direction: row;
+
 }
 
