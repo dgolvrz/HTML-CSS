@@ -78,7 +78,7 @@ div.item3 {
     padding: 15px;
     flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 0;
+    flex-grow: 1;
 }
 
 
