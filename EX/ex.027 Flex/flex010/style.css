@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+div.item {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    flex-basis: 250px;
+
+ /* Flex-shrink - Encolhe
+    Flex-grow - Cresce */
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+
+div#container {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+div#container2 {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
