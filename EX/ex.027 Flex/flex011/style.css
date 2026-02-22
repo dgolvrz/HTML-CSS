@@ -8,16 +8,16 @@ div#container {
 }
 
 div.item {
+ /* Flex-shrink - Encolhe
+    Flex-grow - Cresce 
+    Flex: auto - Alinhados */
+
     background-color: aqua;
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
-
- /* Flex-shrink - Encolhe
-    Flex-grow - Cresce */
-    flex-shrink: 1;
-    flex-grow: 0;
+    flex-basis: 250px;    
+    flex: auto;
 }
 
 
@@ -35,9 +35,10 @@ div.item2 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+ /* flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 0;
+    flex-grow: 0; */
+    flex: 0 1 250px;       /*Propriedade "Flex" - 1.Grow , 2.Shrink , 3.Basis */
 }
 
 div.item2-2 {
@@ -45,9 +46,10 @@ div.item2-2 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+ /* flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 2;
+    flex-grow: 2; */
+    flex: 2 1 250px;
 }
 
 div.item2-1 {
@@ -55,9 +57,10 @@ div.item2-1 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+ /* flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 1;
+    flex-grow: 1; */
+    flex: 1 1 250px;
 }
 
 
@@ -76,9 +79,10 @@ div.item3 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+    /* flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 1;
+    flex-grow: 1; */
+    flex: 1 1 250px;
 }
 
 
@@ -87,9 +91,10 @@ div.item3-2 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+    /* flex-basis: 250px;
     flex-shrink: 2;
-    flex-grow: 1;
+    flex-grow: 1; */
+    flex: 1 2 250px;
 }
 
 div.item3-1 {
@@ -97,8 +102,9 @@ div.item3-1 {
     border: 1px solid black;
     text-align: center;
     padding: 15px;
-    flex-basis: 250px;
+    /* flex-basis: 250px;
     flex-shrink: 1;
-    flex-grow: 1;
+    flex-grow: 1; */
+    flex: 1 1 250px;
 }
 
